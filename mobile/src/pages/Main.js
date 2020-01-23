@@ -8,6 +8,7 @@ import api from '../services/api';
 import { connect, disconnect, subscribeToNewDevs } from '../services/socket';
 
 function Main({ navigation }) {
+    const [goLocation, setGoLocation] = useState(false);
     const [devs, setDevs] = useState([]);
     const [currentRegion, setCurrentRegion] = useState(null);
     const [techs, setTechs] = useState('');
@@ -25,14 +26,14 @@ function Main({ navigation }) {
                 setCurrentRegion({
                     latitude,
                     longitude,
-                    latitudeDelta: 0.04,
-                    longitudeDelta: 0.04,
+                    latitudeDelta: 0.06,
+                    longitudeDelta: 0.06,
                 });
             }
         }
 
         loadInitialPosition();
-    }, []);
+    }, [goLocation]);
 
     useEffect(() => {
         subscribeToNewDevs(dev => setDevs([...devs, dev]));
@@ -69,7 +70,7 @@ function Main({ navigation }) {
 
     return (
         <>
-            <MapView onRegionChangeComplete={handleRegionChanged} initialRegion={currentRegion} style={styles.map}>
+            <MapView onRegionChangeComplete={handleRegionChanged} region={currentRegion} style={styles.map}>
                 {devs.map(dev => (
                     <Marker 
                         key={dev._id} 
@@ -105,9 +106,14 @@ function Main({ navigation }) {
                     />
 
                     <TouchableOpacity onPress={loadDevs} style={styles.loadButton}>
-                        <MaterialIcons name='my-location' size={20} color="#FFF" />
+                        <MaterialIcons name='location-searching' size={25} color="#FFF" />
                     </TouchableOpacity>
             </KeyboardAvoidingView>
+            <View style={styles.myLocation}> 
+                <TouchableOpacity onPress={() => setGoLocation(!goLocation)} style={styles.loadButton}>
+                    <MaterialIcons name='my-location' size={25} color="#FFF" />
+                </TouchableOpacity>
+            </View>
         </>
     );
 }
@@ -167,6 +173,7 @@ const styles = StyleSheet.create({
             height: 4,
         },
         elevation: 3,
+        marginRight: 15,
     },
 
     loadButton: {
@@ -176,7 +183,14 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         justifyContent: 'center',
         alignItems:'center',
-        marginLeft: 15,
+    },
+
+    myLocation: {
+        position: 'absolute',
+        top: 5,
+        left: 5,
+        zIndex: 5,
+        flexDirection: 'row',
     },
 });
 
