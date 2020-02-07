@@ -1,20 +1,3 @@
-## Instalando o Node.js e o Yarn
-
-Primeiro instale o Node.js pelo [executável](https://nodejs.org/en/download/) ou pelo [Chocolatey](https://chocolatey.org/install) pelo comando:
-```bash
-cinst nodejs.install
-```
-Para outros packages managers, veja o [link](https://nodejs.org/en/download/package-manager/).
-
-Depois, instale o Yarn pelo comando:
-```bash
-choco install yarn
-```
-Para instalar pelo executável ou por outros package managers, ver o [link](https://yarnpkg.com/en/docs/install#windows-stable).
-
-
-## Como inicializar as aplicações
-
 <h1 align="center">
 <br>
   <img src="https://github.com/Rocketseat/semana-omnistack-10/raw/master/.github/devradar.svg?sanitize=tru" alt="DevRadar" width="240">
@@ -33,14 +16,14 @@ DevRadar
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="./web/web_frontend.jpg" alt="web-frontend" height="425">
-  <img src="./mobile/imgs/mobile_frontend_video.mov" alt="mobile-video" height="425">
-  <img src="./mobile/imgs/mobile_frontend_1.mov" alt="mobile-1" height="425">
-  <img src="./mobile/imgs/mobile_frontend_2.mov" alt="mobile-2" height="425">
-  <img src="./mobile/imgs/mobile_frontend_3.mov" alt="mobile-3" height="425">
-  <img src="./mobile/imgs/mobile_frontend_4.mov" alt="mobile-4" height="425">
-  <img src="./mobile/imgs/mobile_frontend_5.mov" alt="mobile-5" height="425">
-  <img src="./mobile/imgs/mobile_frontend_6.mov" alt="mobile-6" height="425">
+  <img src="https://ibb.co/hVRhk9c" alt="web-frontend" height="425">
+  <img src="https://media.giphy.com/media/VGPyRPg3GYz9NsMrPs/source.mp4" alt="mobile-video" height="425">
+  <img src="https://ibb.co/s2KtnxV" alt="mobile-1" height="425">
+  <img src="https://ibb.co/cKB2K37" alt="mobile-2" height="425">
+  <img src="https://ibb.co/6whFnxq" alt="mobile-3" height="425">
+  <img src="https://ibb.co/p4NjP82" alt="mobile-4" height="425">
+  <img src="https://ibb.co/MfWhmCB" alt="mobile-5" height="425">
+  <img src="https://ibb.co/9hxGz9g" alt="mobile-6" height="425">
 </div>
 
 <hr />
@@ -55,7 +38,7 @@ This app features all the latest tools and practices in mobile development!
 - 📄 **MongoDB** — A cross-platform and open-source document-oriented database
 - ♻️ **Socket IO** — A library for realtime web applications
 
-## Instalando o Node.js e o Yarn
+## Installing Node.js and Yarn
 
 First install Node.js by the [executable](https://nodejs.org/en/download/) or by the [Chocolatey](https://chocolatey.org/install) with the command:
 ```bash
