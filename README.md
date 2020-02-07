@@ -16,8 +16,8 @@ DevRadar
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="https://i.ibb.co/vkxgbqh/web-frontend.jpg" alt="web-frontend" height="425">
-  <img src="https://media.giphy.com/media/VGPyRPg3GYz9NsMrPs/giphy.gif" alt="mobile-video" height="425">
+  <img src="https://i.ibb.co/vkxgbqh/web-frontend.jpg" alt="web-frontend" width=100%>
+  <img src="https://media.giphy.com/media/H5HkoBG5vtxNlQbAtn/giphy.gif" alt="mobile-video" height="425">
   <img src="https://i.ibb.co/QfPXLSK/mobile-frontend-1.png" alt="mobile-1" height="425">
   <img src="https://i.ibb.co/WNhBN5Y/mobile-frontend-2.png" alt="mobile-2" height="425">
   <img src="https://i.ibb.co/DWXQVyj/mobile-frontend-3.png" alt="mobile-3" height="425">
