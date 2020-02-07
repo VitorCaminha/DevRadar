@@ -16,14 +16,14 @@ DevRadar
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="https://ibb.co/hVRhk9c" alt="web-frontend" height="425">
-  <img src="https://media.giphy.com/media/VGPyRPg3GYz9NsMrPs/source.mp4" alt="mobile-video" height="425">
-  <img src="https://ibb.co/s2KtnxV" alt="mobile-1" height="425">
-  <img src="https://ibb.co/cKB2K37" alt="mobile-2" height="425">
-  <img src="https://ibb.co/6whFnxq" alt="mobile-3" height="425">
-  <img src="https://ibb.co/p4NjP82" alt="mobile-4" height="425">
-  <img src="https://ibb.co/MfWhmCB" alt="mobile-5" height="425">
-  <img src="https://ibb.co/9hxGz9g" alt="mobile-6" height="425">
+  <img src="https://i.ibb.co/vkxgbqh/web-frontend.jpg" alt="web-frontend" height="425">
+  <img src="https://media.giphy.com/media/VGPyRPg3GYz9NsMrPs/giphy.gif" alt="mobile-video" height="425">
+  <img src="https://i.ibb.co/QfPXLSK/mobile-frontend-1.png" alt="mobile-1" height="425">
+  <img src="https://i.ibb.co/WNhBN5Y/mobile-frontend-2.png" alt="mobile-2" height="425">
+  <img src="https://i.ibb.co/DWXQVyj/mobile-frontend-3.png" alt="mobile-3" height="425">
+  <img src="https://i.ibb.co/HGRT2s7/mobile-frontend-4.png" alt="mobile-4" height="425">
+  <img src="https://i.ibb.co/NrQ3MyT/mobile-frontend-5.png" alt="mobile-5" height="425">
+  <img src="https://i.ibb.co/ypzVGnP/mobile-frontend-6.png" alt="mobile-6" height="425">
 </div>
 
 <hr />
